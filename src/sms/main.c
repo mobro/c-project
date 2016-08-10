@@ -15,5 +15,18 @@
  *
  * =====================================================================================
  */
-#include <stdlib.h>
+#include	<stdlib.h>
+#include	<stdio.h>
+#include "fos/config.h"
+/* 
+ * ===  FUNCTION  ======================================================================
+ *         Name:  main
+ *  Description:  
+ * =====================================================================================
+ */
+int main(int argc, char *argv[])
+{
+  printf("Hello world!");
 
+  return EXIT_SUCCESS;
+}                               /* ----------  end of function main  ---------- */
