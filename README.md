@@ -12,4 +12,10 @@ NERDTree<br>
 Open file in horizontal split window is i
 http://www.usevim.com/2012/07/18/nerdtree
 
+Using CMake<br>
+<br>
+CMakeLists.txt is the configuration file. Use cmake . and than make to generate the executable.
 
+Using GitHub<br>
+<br>
+Use the SSH link and not the https link, generate a SSH key and add it to the github account.
