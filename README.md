@@ -21,3 +21,6 @@ If you want to have a auto completion inside vim use YouCompleteMe.
 
 <b>Jumping to definitions, declarations etc.</b><br>
 Use exuberant-ctags, go to the project root folder and run ctags -R --exclude=.git .
+
+<b>Search in files</b><br>
+grep -rnw '/path/to/somewhere' -e "pattern"
