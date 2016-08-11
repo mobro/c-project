@@ -20,4 +20,4 @@ Use the SSH link and not the https link, generate a SSH key and add it to the gi
 If you want to have a auto completion inside vim use YouCompleteMe.
 
 <b>Jumping to definitions, declarations etc.</b><br>
-Use exuberant-ctags, go to the project root folder and run <ctags -R --exclude=.git .>
+Use exuberant-ctags, go to the project root folder and run '<ctags -R --exclude=.git .>'
