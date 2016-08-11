@@ -11,6 +11,12 @@
 cmake_minimum_required(VERSION 2.8.4 FATAL_ERROR)
 project(c-project)
 
+set (CMAKE_EXPORT_COMPILE_COMMANDS 1)
+
+#Generate ctags file
+#add_custom_target(ctags
+#	COMMAND ctags -o . -R --exclude=.git .)
+
 #set (C_PROJECT_VERSION_MAJOR 0)
 #set (C_PROJECT_VERSION_MINOR 1)
 #
@@ -23,4 +29,4 @@ project(c-project)
 
 include_directories(src)
 
-add_executable(c-project src/sms/main.c)
+add_executable(c-project src/fos/print.c src/sms/main.c)
