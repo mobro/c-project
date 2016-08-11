@@ -15,9 +15,10 @@
  *
  * =====================================================================================
  */
-#include	<stdlib.h>
+#include <stdlib.h>
 #include	<stdio.h>
-#include "fos/config.h"
+#include <fos/config.h>
+#include	<fos/print.h>
 /* 
  * ===  FUNCTION  ======================================================================
  *         Name:  main
@@ -26,7 +27,7 @@
  */
 int main(int argc, char *argv[])
 {
-  printf("Hello world!");
+  print();
 
   return EXIT_SUCCESS;
 }                               /* ----------  end of function main  ---------- */
