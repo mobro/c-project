@@ -24,3 +24,6 @@ Use exuberant-ctags, go to the project root folder and run ctags -R --exclude=.g
 
 <b>Search in files</b><br>
 grep -rnw '/path/to/somewhere' -e "pattern"
+
+<b>Bash</b><br>
+Use the history -a command in the bash to see which commands you were using.
