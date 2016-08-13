@@ -30,3 +30,5 @@ Use the history -a command in the bash to see which commands you were using.<br>
 Use Ctrl -l to clear the terminal.<br>
 Use !x to search in the command history for x command.<br>
 
+<b>ZSH</b><br>
+Using the adam2 zshell
