@@ -26,4 +26,7 @@ Use exuberant-ctags, go to the project root folder and run ctags -R --exclude=.g
 grep -rnw '/path/to/somewhere' -e "pattern"
 
 <b>Bash</b><br>
-Use the history -a command in the bash to see which commands you were using.
+Use the history -a command in the bash to see which commands you were using.<br>
+Use Ctrl -l to clear the terminal.<br>
+Use !x to search in the command history for x command.<br>
+
