@@ -279,9 +279,16 @@ SIMULATE_VERSION_MINOR	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	55;"	d	fi
 SIMULATE_VERSION_MINOR	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	35;"	d	file:
 SIMULATE_VERSION_MINOR	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	60;"	d	file:
 SUFFIXES	Makefile	/^SUFFIXES =$/;"	m
+__dbg_h__	src/fos/dbg.h	19;"	d
+check	src/fos/dbg.h	39;"	d
+check_debug	src/fos/dbg.h	45;"	d
+check_mem	src/fos/dbg.h	43;"	d
+clean_errno	src/fos/dbg.h	31;"	d
 compilation_database_folder	.ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	v
 database	.ycm_extra_conf.py	/^  database = None$/;"	v
 database	.ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	v
+debug	src/fos/dbg.h	26;"	d
+debug	src/fos/dbg.h	28;"	d
 flags	.ycm_extra_conf.py	/^flags = [$/;"	v
 info_arch	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
 info_arch	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
@@ -295,6 +302,9 @@ info_simulate_version	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char con
 info_simulate_version	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v
 info_version	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
 info_version	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
+log_err	src/fos/dbg.h	33;"	d
+log_info	src/fos/dbg.h	37;"	d
+log_warn	src/fos/dbg.h	35;"	d
 main	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f
 main	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
 main	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
@@ -302,3 +312,12 @@ main	src/sms/main.c	/^int main(int argc, char *argv[])$/;"	f
 print	src/fos/print.c	/^void print(void)$/;"	f
 qnxnto	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto";$/;"	v
 qnxnto	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto";$/;"	v
+sentinel	src/fos/dbg.h	41;"	d
+t_log_err	src/sms/main.c	/^void t_log_err()$/;"	f
+test_check	src/sms/main.c	/^int test_check(char *file_name)$/;"	f
+test_check_debug	src/sms/main.c	/^int test_check_debug()$/;"	f
+test_check_mem	src/sms/main.c	/^int test_check_mem()$/;"	f
+test_debug	src/sms/main.c	/^void test_debug()$/;"	f
+test_log_info	src/sms/main.c	/^void test_log_info()$/;"	f
+test_log_warn	src/sms/main.c	/^void test_log_warn()$/;"	f
+test_sentinel	src/sms/main.c	/^int test_sentinel(int code)$/;"	f

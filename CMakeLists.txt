@@ -12,6 +12,7 @@ cmake_minimum_required(VERSION 2.8.4 FATAL_ERROR)
 project(c-project)
 
 set (CMAKE_EXPORT_COMPILE_COMMANDS 1)
+set (CMAKE_CXX_FLAGS_DEBUG "{CMAKE_CXX_FLAGS_DEBUG} -Wall")
 
 #Generate ctags file
 #add_custom_target(ctags
