@@ -28,7 +28,7 @@ set (CMAKE_CXX_FLAGS_DEBUG "{CMAKE_CXX_FLAGS_DEBUG} -Wall")
 #
 #include_directories("${PROJECT_BINARY_DIR}")
 
-include_directories(src src/fos src/sms src/fos/strlib/bstring /usr/local/include/bstring)
-link_directories(/usr/local/lib /home/ben/C-Projects/c-project/src/fos/strlib/bstring/bstring) 
-add_executable(c-project src/fos/print.c src/fos/ringbuffer.c  src/sms/main.c)
-target_link_libraries(c-project "/usr/local/lib/libbstring.so")
+include_directories(src src/fos src/sms)
+link_directories() 
+add_executable(c-project src/fos/print.c src/sms/main.c)
+#target_link_libraries(c-project "/usr/local/lib/libbstring.so")
