@@ -11,6 +11,10 @@
 cmake_minimum_required(VERSION 2.8.4 FATAL_ERROR)
 project(c-project)
 
+# Locate GTest
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS})
+
 set (CMAKE_EXPORT_COMPILE_COMMANDS 1)
 set (CMAKE_CXX_FLAGS_DEBUG "{CMAKE_CXX_FLAGS_DEBUG} -Wall")
 
@@ -28,7 +32,11 @@ set (CMAKE_CXX_FLAGS_DEBUG "{CMAKE_CXX_FLAGS_DEBUG} -Wall")
 #
 #include_directories("${PROJECT_BINARY_DIR}")
 
-include_directories(src src/fos src/sms)
+include_directories(src src/fos src/fos/math src/sms)
 link_directories() 
-add_executable(c-project src/fos/print.c src/sms/main.c)
-#target_link_libraries(c-project "/usr/local/lib/libbstring.so")
+add_executable(c-project src/fos/math/src/sqroot.c src/sms/src/main.c)
+target_link_libraries(c-project m)
+
+# Link runTests with what we want to test and the GTest and pthread library
+add_executable(runTests src/fos/math/test/testsqroot.cpp)
+target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)

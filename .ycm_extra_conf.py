@@ -81,11 +81,11 @@ flags = [
 './tests/gmock',
 '-isystem',
 './tests/gmock/include',
-'-I/home/ben/C-Projects/c-project/src',
-'-I/home/ben/C-Projects/c-project/src/fos',
-'-I/home/ben/C-Projects/c-project/src/sms',
-'-I/home/ben/C-Projects/c-project/src/hc',
-'-I/home/ben/C-Projects/c-project/src/cs',
+'-I/home/ben/c-project/src',
+'-I/home/ben/c-project/src/fos',
+'-I/home/ben/c-project/src/sms',
+'-I/home/ben/c-project/src/hc',
+'-I/home/ben/c-project/src/cs',
 ]
 
 # Set this to the absolute path to the folder (NOT the file!) containing the
