@@ -18,17 +18,27 @@ include_directories(${GTEST_INCLUDE_DIRS})
 set (CMAKE_EXPORT_COMPILE_COMMANDS 1)
 set (CMAKE_CXX_FLAGS_DEBUG "{CMAKE_CXX_FLAGS_DEBUG} -Wall")
 
+#set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+#set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+#set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+# Recurse into the "app" and "fw" subdirectories. This does not actually
+# cause another cmake executable to run. The same process will walk through
+# the project's entire directory structure.
+add_subdirectory (fw)
+add_subdirectory (app)
+
 #Generate ctags file
 #add_custom_target(ctags
 #	COMMAND ctags -o . -R --exclude=.git .)
- set(source_files
-  src/fos/math/src/sqroot.c 
-  src/sms/src/main.c
-     )
+# set(source_files
+#  fw/src/fos/math/src/sqroot.c 
+#  app/src/sms/src/main.c
+#     )
 
-set(test_files
-  src/fos/math/test/testsqroot.cpp
-     )
+#set(test_files
+#  fw/src/fos/math/test/testsqroot.cpp
+#     )
 
 #set (C_PROJECT_VERSION_MAJOR 0)
 #set (C_PROJECT_VERSION_MINOR 1)
@@ -40,13 +50,10 @@ set(test_files
 #
 #include_directories("${PROJECT_BINARY_DIR}")
 
-set(EXECUTABLE_OUTPUT_PATH build)
+#set(EXECUTABLE_OUTPUT_PATH build)
 
-include_directories(src src/fos src/fos/math src/sms)
+include_directories(app/src fw/src )
 link_directories() 
-add_executable(c-project ${source_files})
-target_link_libraries(c-project m)
+#add_executable(c-project ${source_files})
+#target_link_libraries(c-project m)
 
-# Link runTests with what we want to test and the GTest and pthread library
-add_executable(runTests ${test_files})
-target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)

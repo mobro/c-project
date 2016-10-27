@@ -16,7 +16,7 @@
  * =====================================================================================
  */
 #include <stdlib.h>
-#include "../../../src/fos/math/src/sqroot.c"
+#include "../src/sqroot.c"
 #include <gtest/gtest.h>
 
 TEST(SquareRootTest, NegativeNos)
