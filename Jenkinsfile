@@ -8,5 +8,5 @@ node {
                 sh 'cd build && cmake .. && make'
 	
 	stage 'Test'
-		sh 'cd fw/build && pwd && ls -la && ./runTests --gtest_output="xml:testresults.xml"'
+		sh 'cd fw/build && pwd && ls -la && ./runTests --quiet --no-verbose --gtest_output="xml:testresults.xml"'
 }
