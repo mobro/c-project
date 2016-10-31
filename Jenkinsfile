@@ -6,4 +6,7 @@ node {
 	stage 'Build'
                 sh 'mkdir -p build'
                 sh 'cd build && cmake .. && make'
+	
+	stage 'Test'
+		
 }
