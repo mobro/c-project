@@ -8,5 +8,5 @@ node {
                 sh 'cd build && cmake .. && make'
 	
 	stage 'Test'
-		sh 'cd build && ./runTests'
+		sh 'cd fw/build && ./runTests'
 }
