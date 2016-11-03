@@ -27,5 +27,9 @@ TEST(MulitplicationTest, NegativeNos)
   
   ASSERT_EQ( 4, i32Result);
   
+  umult32( 4, 2, &i32Result);
+  
+  ASSERT_EQ( 4, i32Result);
+  
 }
 
