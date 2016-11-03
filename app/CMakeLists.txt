@@ -15,4 +15,4 @@ add_executable (application ${source_files})
 # Link the executable to the Hello library. Since the Hello library has
 # public include directories we will use those link directories when building
 # helloDemo
-target_link_libraries (application LINK_PUBLIC fw)
+target_link_libraries (application LINK_PUBLIC fw gcov)
