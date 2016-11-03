@@ -1,4 +1,8 @@
 
 
-#define CONF_EN_16BIT_HRESULT 1
+#define CONF_EN_8BIT_RESULT 0
+  
+#define CONF_EN_16BIT_RESULT 1
+
+#define CONF_EN_32BIT_RESULT 0
 
