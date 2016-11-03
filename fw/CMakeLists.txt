@@ -1,10 +1,12 @@
 # Create a library called "fw" which includes the framework source files.
  set(source_files
   src/fos/math/src/sqroot.c 
+  src/fos/corefnct/math/src/fw_multiplication.c 
      )
 
 set(test_files
   src/fos/math/test/testsqroot.cpp
+  src/fos/corefnct/math/test/testsmultiplication.cpp
      )
 
 include_directories( src )
