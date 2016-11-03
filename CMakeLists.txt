@@ -17,6 +17,8 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 set (CMAKE_EXPORT_COMPILE_COMMANDS 1)
 set (CMAKE_CXX_FLAGS_DEBUG "{CMAKE_CXX_FLAGS_DEBUG} -Wall")
+set (GCC_COVERAGE_COMPILE_FLAGS "-fprofile-arcs -ftest-coverage")
+set (GCC_COVERAGE_LINK_FLAGS    "-lgcov")
 
 #set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 #set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
@@ -51,6 +53,8 @@ add_subdirectory (app)
 #include_directories("${PROJECT_BINARY_DIR}")
 
 #set(EXECUTABLE_OUTPUT_PATH build)
+
+add_definitions(${GCC_COVERAGE_COMPILE_FLAGS})
 
 include_directories(app/src fw/src )
 link_directories() 
