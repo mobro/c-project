@@ -1,5 +1,4 @@
 //=============================================================================
-// Copyright (c) SICK AG - DIV07 
 // Project: fw
 //-----------------------------------------------------------------------------
 //! @file
@@ -10,15 +9,12 @@
 //! $Date: 2015-04-15 15:11:48 +0200 (Mi, 15 Apr 2015) $
 //!
 //! Detailed description of the interface of the content of this include file
-//! Type definition of the c types according to SOFTWARE CODING GUIDLINES 
-//! E_27159 (version 1.03).
+//! Type definition of the c types 
 //!
 //! @see @ref Section_ModuleName for descriptive informations.
 //! @see @ref ModuleName.c for implementation details.
 //-----------------------------------------------------------------------------
 // Notes
-// Initial author: Benjamin Hug (hugbe), benjaminhug@sick.de
-// $Author: hugbe $ (last change)
 //=============================================================================
 
 //--------------------------------- -------------------------------------------
