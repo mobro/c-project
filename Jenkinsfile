@@ -4,7 +4,7 @@ node {
 		checkout scm
 
 	stage 'Build'
-		sh 'rm -R build'
+		
                 sh 'mkdir -p build'
                 sh 'cd build && cmake .. && make'
 	
