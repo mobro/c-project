@@ -17,6 +17,7 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 set (CMAKE_EXPORT_COMPILE_COMMANDS 1)
 set (CMAKE_CXX_FLAGS_DEBUG "{CMAKE_CXX_FLAGS_DEBUG} -Wall -fprofile-arcs -ftest-coverage -O0")
+set (CMAKE_CXX_FLAGS "{CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage -O0")
 set (CMAKE_SHARED_LINKER_FLAGS "-Wl,--as-needed -lgcov --coverage")
 
 #set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
