@@ -23,4 +23,4 @@ target_include_directories (fw PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(fw m)
 # Link runTests with what we want to test and the GTest and pthread library
 add_executable(runTests ${test_files})
-target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)
+target_link_libraries(runTests ${GTEST_LIBRARIES} pthread gcov)
