@@ -21,17 +21,14 @@
 
 TEST(MulitplicationTest, NegativeNos)
 {
-  ASSERT_EQ(-1.0, umult32(-15.0));
-  ASSERT_EQ(-1.0, umult32(-0.2));
+  double dResult = 0;
+    
+  umult32( 2.0, 2.0, &dResult);
+  
+  ASSERT_EQ( -1.0, dResult);
+  
 }
 
-TEST(MulitplicationTest, PositiveNos)
-{
-  ASSERT_EQ(6, umult32(36.0));
-  ASSERT_EQ(18.0, umult32(324.0));
-  ASSERT_EQ(25.4, umult32(645.16));
-  ASSERT_EQ(0, umult32(0.0));
-}
 
 /* 
  * ===  FUNCTION  ======================================================================
