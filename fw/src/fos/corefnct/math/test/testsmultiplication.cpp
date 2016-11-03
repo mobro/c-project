@@ -16,28 +16,16 @@
  * =====================================================================================
  */
 #include <stdlib.h>
-#include "../src/fw_mulitplication.c"
+#include "../src/fw_multiplication.c"
 #include <gtest/gtest.h>
 
 TEST(MulitplicationTest, NegativeNos)
 {
-  double dResult = 0;
+  INT32 i32Result = 0;
     
-  umult32( 2.0, 2.0, &dResult);
+  umult32( 2, 2, &i32Result);
   
-  ASSERT_EQ( -1.0, dResult);
+  ASSERT_EQ( 4, i32Result);
   
 }
 
-
-/* 
- * ===  FUNCTION  ======================================================================
- *         Name:  main
- *  Description:  
- * =====================================================================================
- */
-int main(int argc, char *argv[])
-{
-  testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
-}                               /* ----------  end of function main  ---------- */
