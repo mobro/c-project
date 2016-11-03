@@ -9,7 +9,7 @@ node {
                 sh 'cd build && cmake .. && make'
 	
 	stage 'Execution'
-		sh 'cd app/build && . ./application'
+		sh './app/build/application'
 	
 	//stage 'Test'
 		//sh 'cd fw/build && pwd && ls -la && ./runTests'
