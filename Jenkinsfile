@@ -6,7 +6,7 @@ node {
 	stage 'Build'
 		
                 sh 'mkdir -p build'
-                sh 'cd build && cmake .. && make'
+                sh 'cd build && cmake -DCMAKE_BUILD_TYPE=Debug .. && make && make c-project_coverage && make c-project_cobertura'
 	
 	stage 'Execution'
 		sh 'cd build && pwd && ./app/build/application'
