@@ -11,6 +11,8 @@
 cmake_minimum_required(VERSION 2.8.4 FATAL_ERROR)
 project(c-project)
 
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
+
 # Locate GTest
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
@@ -18,7 +20,7 @@ include_directories(${GTEST_INCLUDE_DIRS})
 set (CMAKE_EXPORT_COMPILE_COMMANDS 1)
 #set (CMAKE_CXX_FLAGS_DEBUG "{CMAKE_CXX_FLAGS_DEBUG} -Wall -fprofile-arcs -ftest-coverage -O0")
 #set (CMAKE_CXX_FLAGS "{CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage -O0")
-SET(CMAKE_CXX_FLAGS="-g -O0 -Wall -W -Wshadow -Wunused-variable -Wunused-parameter -Wunused-function -Wunused -Wno-system-headers -Wno-deprecated -Woverloaded-virtual -Wwrite-strings -fprofile-arcs -ftest-coverage")
+SET(CMAKE_CXX_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
 SET(CMAKE_C_FLAGS="-g -O0 -Wall -W -fprofile-arcs -ftest-coverage")
 set (CMAKE_SHARED_LINKER_FLAGS "-Wl,--as-needed -lgcov --coverage")
 

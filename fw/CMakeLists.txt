@@ -24,3 +24,13 @@ target_link_libraries(fw m gcov)
 # Link runTests with what we want to test and the GTest and pthread library
 add_executable(runTests ${test_files})
 target_link_libraries(runTests ${GTEST_LIBRARIES} pthread gcov)
+
+if (CMAKE_BUILD_TYPE STREQUAL "Debug")
+    find_package(PythonInterp)
+    INCLUDE(CodeCoverage)
+    setup_target_for_coverage(${PROJECT_NAME}_coverage runTests coverage)
+    setup_target_for_coverage_cobertura(${PROJECT_NAME}_cobertura runTests coverage)
+    #setup_target_for_coverage(fccov-transcoder fctest fccov --run_test=Transcoder)
+    #setup_target_for_coverage(fccov-loopfile fctest fccov --run_test=ImportExport)
+    #setup_target_for_coverage(fccov-messages fctest fccov --run_test=Messages)
+endif (CMAKE_BUILD_TYPE STREQUAL "Debug")
