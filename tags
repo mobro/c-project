@@ -4,6 +4,18 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+1	coverage/corefnct/math/src/fw_multiplication.c.gcov.html	/^<a name="1"><span class="lineNum">       1 <\/span>            : \/\/=============================================================================<\/a>$/;"	a
+1	coverage/corefnct/math/test/testsmultiplication.cpp.gcov.html	/^<a name="1"><span class="lineNum">       1 <\/span>            : \/*<\/a>$/;"	a
+1	coverage/math/src/sqroot.c.gcov.html	/^<a name="1"><span class="lineNum">       1 <\/span>            : \/*<\/a>$/;"	a
+1	coverage/math/test/testsqroot.cpp.gcov.html	/^<a name="1"><span class="lineNum">       1 <\/span>            : \/*<\/a>$/;"	a
+20	coverage/corefnct/math/test/testsmultiplication.cpp.gcov.html	/^<a name="20"><span class="lineNum">      20 <\/span>            : #include &lt;gtest\/gtest.h&gt;<\/a>$/;"	a
+20	coverage/math/src/sqroot.c.gcov.html	/^<a name="20"><span class="lineNum">      20 <\/span>            : #include &lt;fos\/math\/sqroot.h&gt;<\/a>$/;"	a
+20	coverage/math/test/testsqroot.cpp.gcov.html	/^<a name="20"><span class="lineNum">      20 <\/span>            : #include &lt;gtest\/gtest.h&gt;<\/a>$/;"	a
+26	coverage/math/test/testsqroot.cpp.gcov.html	/^<a name="26"><span class="lineNum">      26 <\/span>            : }<\/a>$/;"	a
+30	coverage/corefnct/math/test/testsmultiplication.cpp.gcov.html	/^<a name="30"><span class="lineNum">      30 <\/span>            : <\/a>$/;"	a
+40	coverage/math/test/testsqroot.cpp.gcov.html	/^<a name="40"><span class="lineNum">      40 <\/span>            :  * =====================================================================================<\/a>$/;"	a
+44	coverage/math/test/testsqroot.cpp.gcov.html	/^<a name="44"><span class="lineNum">      44 <\/span><span class="lineCov">          1 :   testing::InitGoogleTest(&amp;argc, argv);<\/span><\/a>$/;"	a
+65	coverage/corefnct/math/src/fw_multiplication.c.gcov.html	/^<a name="65"><span class="lineNum">      65 <\/span>            : \/\/!<\/a>$/;"	a
 ARCHITECTURE_ID	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	326;"	d	file:
 ARCHITECTURE_ID	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	329;"	d	file:
 ARCHITECTURE_ID	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	332;"	d	file:
@@ -20,29 +32,18 @@ ARCHITECTURE_ID	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	331;"	d	fi
 ARCHITECTURE_ID	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	334;"	d	file:
 ARCHITECTURE_ID	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	337;"	d	file:
 ARCHITECTURE_ID	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	341;"	d	file:
-B64_ERR	src/fos/strlib/string/bstraux.c	407;"	d	file:
-B64_PAD	src/fos/strlib/string/bstraux.c	406;"	d	file:
-BSSSC_BUFF_LEN	src/fos/strlib/string/bstrlib.c	2319;"	d	file:
-BSTRAUX_H	src/fos/strlib/string/bstraux.h	43;"	d
-BSTRLIB_H	src/fos/strlib/string/bstrlib.h	43;"	d
-BSTR_BS_BUFF_LENGTH_GET	src/fos/strlib/string/bstrlib.h	76;"	d
-BSTR_ERR	src/fos/strlib/string/bstrlib.h	74;"	d
-BSTR_OK	src/fos/strlib/string/bstrlib.h	75;"	d
-BSTR_PRINTF	src/fos/strlib/string/bstrlib.h	56;"	d
-BSTR_PRINTF	src/fos/strlib/string/bstrlib.h	61;"	d
-BSTR_PRIVATE	src/fos/strlib/string/bstrlib.h	48;"	d
-BSTR_PRIVATE	src/fos/strlib/string/bstrlib.h	52;"	d
-BSTR_PUBLIC	src/fos/strlib/string/bstrlib.h	46;"	d
-BSTR_PUBLIC	src/fos/strlib/string/bstrlib.h	51;"	d
-BSTR_UNUSED	src/fos/strlib/string/bstrlib.h	58;"	d
-BSTR_UNUSED	src/fos/strlib/string/bstrlib.h	62;"	d
-BS_BUFF_SZ	src/fos/strlib/string/bstrlib.c	1818;"	d	file:
-BWS_BUFF_SZ	src/fos/strlib/string/bstraux.c	1025;"	d	file:
-CFCLEN	src/fos/strlib/string/bstrlib.c	1257;"	d	file:
-CFCLEN	src/fos/strlib/string/bstrlib.c	1270;"	d	file:
+BOOL	fw/src/fos/fw_typedef.h	/^  typedef int BOOL;$/;"	t
+BYTE	fw/src/fos/fw_typedef.h	/^  typedef unsigned char BYTE;$/;"	t
+CHAR	fw/src/fos/fw_typedef.h	/^  typedef signed char CHAR;$/;"	t
 CMAKE_BINARY_DIR	Makefile	/^CMAKE_BINARY_DIR = \/home\/ben\/c-project$/;"	m
+CMAKE_BINARY_DIR	app/Makefile	/^CMAKE_BINARY_DIR = \/home\/ben\/c-project$/;"	m
+CMAKE_BINARY_DIR	fw/Makefile	/^CMAKE_BINARY_DIR = \/home\/ben\/c-project$/;"	m
 CMAKE_COMMAND	Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	app/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	fw/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
 CMAKE_SOURCE_DIR	Makefile	/^CMAKE_SOURCE_DIR = \/home\/ben\/c-project$/;"	m
+CMAKE_SOURCE_DIR	app/Makefile	/^CMAKE_SOURCE_DIR = \/home\/ben\/c-project$/;"	m
+CMAKE_SOURCE_DIR	fw/Makefile	/^CMAKE_SOURCE_DIR = \/home\/ben\/c-project$/;"	m
 COMPILER_ID	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	106;"	d	file:
 COMPILER_ID	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	109;"	d	file:
 COMPILER_ID	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	111;"	d	file:
@@ -221,23 +222,87 @@ COMPILER_VERSION_TWEAK	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	44;"	d	fi
 COMPILER_VERSION_TWEAK	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
 COMPILER_VERSION_TWEAK	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	29;"	d	file:
 COMPILER_VERSION_TWEAK	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	49;"	d	file:
-C_PROJECT_VERSION_MAJOR	src/fos/config.h	19;"	d
-C_PROJECT_VERSION_MINOR	src/fos/config.h	20;"	d
+CONF_EN_16BIT_RESULT	fw/src/fos/config.h	5;"	d
+CONF_EN_32BIT_RESULT	fw/src/fos/config.h	7;"	d
+CONF_EN_8BIT_RESULT	fw/src/fos/config.h	3;"	d
+COUNTS_PER_MSS	fw/src/fos/fw_units.h	50;"	d
+COUNTS_PER_SECOND	fw/src/fos/fw_units.h	43;"	d
+COUNTS_PER_SS	fw/src/fos/fw_units.h	51;"	d
+COUTNS_PER_MILISECOND	fw/src/fos/fw_units.h	44;"	d
+CRC_FINAL	fw/src/fos/corefnct/math/fw_math.h	113;"	d
+CRC_INIT	fw/src/fos/corefnct/math/fw_math.h	111;"	d
+CRC_POLY	fw/src/fos/corefnct/math/fw_math.h	109;"	d
+CRC_WIDTH	fw/src/fos/corefnct/math/fw_math.h	115;"	d
+C_PROJECT_VERSION_MAJOR	app/src/fos/config.h	19;"	d
+C_PROJECT_VERSION_MINOR	app/src/fos/config.h	20;"	d
 DEC	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	352;"	d	file:
 DEC	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	345;"	d	file:
+DECLARE_DBG_VAR	fw/src/fos/fw_macros.h	128;"	d
+DECLARE_DBG_VAR	fw/src/fos/fw_macros.h	131;"	d
+DEGREE_CELSIUS	fw/src/fos/fw_units.h	39;"	d
+DEGREE_FAHRENHEIT	fw/src/fos/fw_units.h	40;"	d
 DirectoryOfThisScript	.ycm_extra_conf.py	/^def DirectoryOfThisScript():$/;"	f
 EQUALS	Makefile	/^EQUALS = =$/;"	m
+EQUALS	app/Makefile	/^EQUALS = =$/;"	m
+EQUALS	fw/Makefile	/^EQUALS = =$/;"	m
+ERROR_VALUE_DEFECT	fw/src/fos/fw_error.h	103;"	d
+ERROR_VALUE_OVERRANGE	fw/src/fos/fw_error.h	104;"	d
+ERROR_VALUE_UNDERRANGE	fw/src/fos/fw_error.h	105;"	d
+ERROR__H__	fw/src/fos/fw_error.h	32;"	d
+E_ABORT	fw/src/fos/fw_error.h	72;"	d
+E_ABORT	fw/src/fos/fw_error.h	73;"	d
+E_ACCESSDENIED	fw/src/fos/fw_error.h	75;"	d
+E_ACCESSDENIED	fw/src/fos/fw_error.h	76;"	d
+E_FAIL	fw/src/fos/fw_error.h	66;"	d
+E_FAIL	fw/src/fos/fw_error.h	67;"	d
+E_HANDLE	fw/src/fos/fw_error.h	84;"	d
+E_HANDLE	fw/src/fos/fw_error.h	85;"	d
+E_INVALIDARG	fw/src/fos/fw_error.h	69;"	d
+E_INVALIDARG	fw/src/fos/fw_error.h	70;"	d
+E_NOTIMPL	fw/src/fos/fw_error.h	87;"	d
+E_NOTIMPL	fw/src/fos/fw_error.h	88;"	d
+E_OUTOFMEMORY	fw/src/fos/fw_error.h	78;"	d
+E_OUTOFMEMORY	fw/src/fos/fw_error.h	79;"	d
+E_PENDING	fw/src/fos/fw_error.h	100;"	d
+E_PENDING	fw/src/fos/fw_error.h	99;"	d
+E_POINTER	fw/src/fos/fw_error.h	81;"	d
+E_POINTER	fw/src/fos/fw_error.h	82;"	d
+E_UNEXPECTED	fw/src/fos/fw_error.h	90;"	d
+E_UNEXPECTED	fw/src/fos/fw_error.h	91;"	d
+FAILED	fw/src/fos/fw_error.h	51;"	d
+FAILED	fw/src/fos/fw_error.h	53;"	d
+FALSE	fw/src/fos/fw_macros.h	44;"	d
+FETCH_DBG_RESULT	fw/src/fos/fw_macros.h	129;"	d
+FETCH_DBG_RESULT	fw/src/fos/fw_macros.h	132;"	d
+FLOAT32	fw/src/fos/fw_typedef.h	/^  typedef float FLOAT32;$/;"	t
+FLOAT64	fw/src/fos/fw_typedef.h	/^  typedef double FLOAT64;$/;"	t
+FW_SMATH__H__	fw/src/fos/corefnct/math/fw_math.h	36;"	d
 FlagsForFile	.ycm_extra_conf.py	/^def FlagsForFile( filename ):$/;"	f
 HEX	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	363;"	d	file:
 HEX	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	356;"	d	file:
+HIBYTE	fw/src/fos/fw_macros.h	80;"	d
+HINIBBLE	fw/src/fos/fw_macros.h	65;"	d
+HIUINT16	fw/src/fos/fw_macros.h	95;"	d
 ID_VOID_MAIN	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	9;"	d	file:
-INITIAL_STATIC_FIND_INDEX_COUNT	src/fos/strlib/string/bstrlib.c	1568;"	d	file:
-INIT_SECURE_INPUT_LENGTH	src/fos/strlib/string/bstraux.c	970;"	d	file:
-LONG_BITS_QTY	src/fos/strlib/string/bstrlib.c	1254;"	d	file:
-LONG_LOG_BITS_QTY	src/fos/strlib/string/bstrlib.c	1253;"	d	file:
-LONG_TYPE	src/fos/strlib/string/bstrlib.c	1256;"	d	file:
-MAX_OB_LEN	src/fos/strlib/string/bstraux.c	843;"	d	file:
+INT16	fw/src/fos/fw_typedef.h	/^  typedef signed short INT16;$/;"	t
+INT32	fw/src/fos/fw_typedef.h	/^  typedef signed long INT32;$/;"	t
+INT64	fw/src/fos/fw_typedef.h	/^  typedef signed long long INT64;$/;"	t
+INT8	fw/src/fos/fw_typedef.h	/^  typedef signed char INT8;$/;"	t
+IS_ERROR	fw/src/fos/fw_error.h	56;"	d
+IS_ERROR	fw/src/fos/fw_error.h	58;"	d
+LOBYTE	fw/src/fos/fw_macros.h	75;"	d
+LONIBBLE	fw/src/fos/fw_macros.h	60;"	d
+LOUINT16	fw/src/fos/fw_macros.h	90;"	d
+MACROS__H__	fw/src/fos/fw_macros.h	32;"	d
+MAKEBYTE	fw/src/fos/fw_macros.h	70;"	d
+MAKELONG	fw/src/fos/fw_macros.h	100;"	d
+MAKEUINT16	fw/src/fos/fw_macros.h	85;"	d
+MAX	fw/src/fos/fw_macros.h	116;"	d
+MIN	fw/src/fos/fw_macros.h	121;"	d
 MakeRelativePathsInFlagsAbsolute	.ycm_extra_conf.py	/^def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):$/;"	f
+NULL	fw/src/fos/fw_macros.h	49;"	d
+OFF	fw/src/fos/fw_macros.h	55;"	d
+ON	fw/src/fos/fw_macros.h	54;"	d
 PLATFORM_ID	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	240;"	d	file:
 PLATFORM_ID	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	243;"	d	file:
 PLATFORM_ID	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	246;"	d	file:
@@ -290,24 +355,21 @@ PLATFORM_ID	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	299;"	d	file:
 PLATFORM_ID	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	302;"	d	file:
 PLATFORM_ID	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	305;"	d	file:
 PLATFORM_ID	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	308;"	d	file:
+PTRPARAM	fw/src/fos/fw_typedef.h	115;"	d
+RAD_PER_SS	fw/src/fos/fw_units.h	53;"	d
+RESULT	fw/src/fos/fw_typedef.h	/^    typedef INT16 RESULT;$/;"	t
+RESULT	fw/src/fos/fw_typedef.h	/^    typedef INT32 RESULT;$/;"	t
+RESULT	fw/src/fos/fw_typedef.h	/^    typedef INT8 RESULT;$/;"	t
 RM	Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
-RingBuffer	src/fos/ringbuffer.h	/^} RingBuffer;$/;"	t	typeref:struct:__anon1
-RingBuffer_available_data	src/fos/ringbuffer.h	48;"	d
-RingBuffer_available_space	src/fos/ringbuffer.h	50;"	d
-RingBuffer_commit_read	src/fos/ringbuffer.h	64;"	d
-RingBuffer_commit_write	src/fos/ringbuffer.h	66;"	d
-RingBuffer_create	src/fos/ringbuffer.c	/^RingBuffer *RingBuffer_create(int length)$/;"	f
-RingBuffer_destroy	src/fos/ringbuffer.c	/^void RingBuffer_destroy(RingBuffer *buffer)$/;"	f
-RingBuffer_empty	src/fos/ringbuffer.h	54;"	d
-RingBuffer_ends_at	src/fos/ringbuffer.h	62;"	d
-RingBuffer_full	src/fos/ringbuffer.h	52;"	d
-RingBuffer_get_all	src/fos/ringbuffer.h	58;"	d
-RingBuffer_gets	src/fos/ringbuffer.c	/^bstring RingBuffer_gets(RingBuffer *buffer, int amount)$/;"	f
-RingBuffer_puts	src/fos/ringbuffer.h	56;"	d
-RingBuffer_read	src/fos/ringbuffer.c	/^int RingBuffer_read(RingBuffer *buffer, char *target, int amount)$/;"	f
-RingBuffer_starts_at	src/fos/ringbuffer.h	60;"	d
-RingBuffer_write	src/fos/ringbuffer.c	/^int RingBuffer_write(RingBuffer *buffer, char *data, int length)$/;"	f
+RM	app/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	fw/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+ROUNDS_PER_HOUR	fw/src/fos/fw_units.h	47;"	d
+ROUNDS_PER_MINUTE	fw/src/fos/fw_units.h	46;"	d
+ROUNDS_PER_SECOND	fw/src/fos/fw_units.h	45;"	d
+ROUNDS_PER_SS	fw/src/fos/fw_units.h	52;"	d
 SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	app/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	fw/Makefile	/^SHELL = \/bin\/sh$/;"	m
 SIMULATE_ID	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	27;"	d	file:
 SIMULATE_ID	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
 SIMULATE_ID	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	32;"	d	file:
@@ -320,226 +382,72 @@ SIMULATE_VERSION_MINOR	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	30;"	d	fi
 SIMULATE_VERSION_MINOR	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	55;"	d	file:
 SIMULATE_VERSION_MINOR	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	35;"	d	file:
 SIMULATE_VERSION_MINOR	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	60;"	d	file:
-START_VSNBUFF	src/fos/strlib/string/bstrlib.c	2755;"	d	file:
+SMATH_CONST_1_PI	fw/src/fos/corefnct/math/fw_math.h	63;"	d
+SMATH_CONST_2PI	fw/src/fos/corefnct/math/fw_math.h	51;"	d
+SMATH_CONST_2_PI	fw/src/fos/corefnct/math/fw_math.h	66;"	d
+SMATH_CONST_2_SQRTPI	fw/src/fos/corefnct/math/fw_math.h	69;"	d
+SMATH_CONST_3PI_4	fw/src/fos/corefnct/math/fw_math.h	60;"	d
+SMATH_CONST_E	fw/src/fos/corefnct/math/fw_math.h	87;"	d
+SMATH_CONST_LB10	fw/src/fos/corefnct/math/fw_math.h	102;"	d
+SMATH_CONST_LBE	fw/src/fos/corefnct/math/fw_math.h	105;"	d
+SMATH_CONST_LN10	fw/src/fos/corefnct/math/fw_math.h	93;"	d
+SMATH_CONST_LN2	fw/src/fos/corefnct/math/fw_math.h	90;"	d
+SMATH_CONST_LOG2	fw/src/fos/corefnct/math/fw_math.h	96;"	d
+SMATH_CONST_LOGE	fw/src/fos/corefnct/math/fw_math.h	99;"	d
+SMATH_CONST_PI	fw/src/fos/corefnct/math/fw_math.h	48;"	d
+SMATH_CONST_PI_2	fw/src/fos/corefnct/math/fw_math.h	54;"	d
+SMATH_CONST_PI_4	fw/src/fos/corefnct/math/fw_math.h	57;"	d
+SMATH_CONST_SQRT1_2	fw/src/fos/corefnct/math/fw_math.h	75;"	d
+SMATH_CONST_SQRT2	fw/src/fos/corefnct/math/fw_math.h	78;"	d
+SMATH_CONST_SQRT3	fw/src/fos/corefnct/math/fw_math.h	81;"	d
+SMATH_CONST_SQRT5	fw/src/fos/corefnct/math/fw_math.h	84;"	d
+SMATH_CONST_SQRTPI	fw/src/fos/corefnct/math/fw_math.h	72;"	d
+STDLib_CalcCRC	fw/src/fos/corefnct/math/src/fw_scrc.c	/^UINT16 STDLib_CalcCRC(BYTE *auc8pMessage, UINT16 u16Length)$/;"	f
+STG_E_MEDIUMFULL	fw/src/fos/fw_error.h	93;"	d
+STG_E_MEDIUMFULL	fw/src/fos/fw_error.h	94;"	d
+STG_E_READFAULT	fw/src/fos/fw_error.h	96;"	d
+STG_E_READFAULT	fw/src/fos/fw_error.h	97;"	d
+SUCCEEDED	fw/src/fos/fw_error.h	45;"	d
+SUCCEEDED	fw/src/fos/fw_error.h	48;"	d
 SUFFIXES	Makefile	/^SUFFIXES =$/;"	m
-UU_DECODE_BYTE	src/fos/strlib/string/bstraux.c	545;"	d	file:
-UU_ENCODE_BYTE	src/fos/strlib/string/bstraux.c	769;"	d	file:
-UU_MAX_LINELEN	src/fos/strlib/string/bstraux.c	553;"	d	file:
-_CRT_SECURE_NO_WARNINGS	src/fos/strlib/string/bstraux.c	39;"	d	file:
-_CRT_SECURE_NO_WARNINGS	src/fos/strlib/string/bstrlib.c	44;"	d	file:
-__dbg_h__	src/fos/dbg.h	19;"	d
-_lcthw_RingBuffer_h	src/fos/ringbuffer.h	19;"	d
-b	src/fos/strlib/string/bstrlib.c	/^	bstring b;$/;"	m	struct:genBstrList	file:
-b64ETable	src/fos/strlib/string/bstraux.c	/^static char b64ETable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"$/;"	v	file:
-bAscTime	src/fos/strlib/string/bstraux.h	189;"	d
-bAssign	src/fos/strlib/string/bstraux.h	65;"	d
-bBase64Decode	src/fos/strlib/string/bstraux.h	104;"	d
-bBase64DecodeEx	src/fos/strlib/string/bstraux.c	/^bBase64DecodeEx(const bstring b, int * boolTruncError)$/;"	f
-bBase64Encode	src/fos/strlib/string/bstraux.c	/^bBase64Encode(const bstring b)$/;"	f
-bBlockCopy	src/fos/strlib/string/bstrlib.c	57;"	d	file:
-bCTime	src/fos/strlib/string/bstraux.h	191;"	d
-bCaselessCmp	src/fos/strlib/string/bstraux.h	98;"	d
-bCaselessNCmp	src/fos/strlib/string/bstraux.h	101;"	d
-bCatBlk	src/fos/strlib/string/bstraux.h	80;"	d
-bCatCstr	src/fos/strlib/string/bstraux.h	77;"	d
-bCatStatic	src/fos/strlib/string/bstraux.h	83;"	d
-bFill	src/fos/strlib/string/bstraux.c	/^bFill(bstring b, char c, int len)$/;"	f
-bHead	src/fos/strlib/string/bstraux.c	/^bHead(bstring b, int n)$/;"	f
-bInsertChrs	src/fos/strlib/string/bstraux.c	/^bInsertChrs(bstring b, int pos, int len, unsigned char c, unsigned char fill)$/;"	f
-bJustifyCenter	src/fos/strlib/string/bstraux.c	/^bJustifyCenter(bstring b, int width, int space) {$/;"	f
-bJustifyLeft	src/fos/strlib/string/bstraux.c	/^bJustifyLeft(bstring b, int space)$/;"	f
-bJustifyMargin	src/fos/strlib/string/bstraux.c	/^bJustifyMargin(bstring b, int width, int space)$/;"	f
-bJustifyRight	src/fos/strlib/string/bstraux.c	/^bJustifyRight(bstring b, int width, int space) {$/;"	f
-bLowercase	src/fos/strlib/string/bstraux.h	95;"	d
-bNetStr2Bstr	src/fos/strlib/string/bstraux.c	/^bNetStr2Bstr(const char * buff)$/;"	f
-bNgetc	src/fos/strlib/string/bstrlib.h	/^typedef int (*bNgetc)(void *parm);$/;"	t
-bNread	src/fos/strlib/string/bstrlib.h	/^typedef size_t (*bNread)(void *buff, size_t elsize, size_t nelem, void *parm);$/;"	t
-bNwrite	src/fos/strlib/string/bstraux.h	/^(*bNwrite)(const void *buf, size_t elsize, size_t nelem, void *parm);$/;"	t
-bReplaceAll	src/fos/strlib/string/bstraux.h	89;"	d
-bReplicate	src/fos/strlib/string/bstraux.c	/^bReplicate(bstring b, int n)$/;"	f
-bReverse	src/fos/strlib/string/bstraux.c	/^bReverse(bstring b)$/;"	f
-bSecureDestroy	src/fos/strlib/string/bstraux.h	382;"	d
-bSecureInput	src/fos/strlib/string/bstraux.c	/^bSecureInput(int maxlen, int termchar, bNgetc vgetchar, void *vgcCtx)$/;"	f
-bSecureWriteProtect	src/fos/strlib/string/bstraux.h	390;"	d
-bSetChar	src/fos/strlib/string/bstraux.c	/^bSetChar(bstring b, int pos, char c)$/;"	f
-bSetCstrChar	src/fos/strlib/string/bstraux.c	/^bSetCstrChar(bstring b, int pos, char c)$/;"	f
-bStr2NetStr	src/fos/strlib/string/bstraux.c	/^bStr2NetStr(const bstring b)$/;"	f
-bStrchr	src/fos/strlib/string/bstraux.h	71;"	d
-bStrchrFast	src/fos/strlib/string/bstraux.h	74;"	d
-bStream	src/fos/strlib/string/bstrlib.c	/^struct bStream {$/;"	s	file:
-bStrfTime	src/fos/strlib/string/bstraux.c	/^bStrfTime(const char * fmt, const struct tm * timeptr)$/;"	f
-bSubs	src/fos/strlib/string/bstraux.h	68;"	d
-bTail	src/fos/strlib/string/bstraux.c	/^bTail(bstring b, int n)$/;"	f
-bTrunc	src/fos/strlib/string/bstraux.h	86;"	d
-bUppercase	src/fos/strlib/string/bstraux.h	92;"	d
-bUuDecLine	src/fos/strlib/string/bstraux.c	/^bUuDecLine(void *parm, int ofs, int len)$/;"	f	file:
-bUuDecode	src/fos/strlib/string/bstraux.h	107;"	d
-bUuDecodeEx	src/fos/strlib/string/bstraux.c	/^bUuDecodeEx(const bstring src, int *badlines)$/;"	f
-bUuEncode	src/fos/strlib/string/bstraux.c	/^bUuEncode(const bstring src)$/;"	f
-bUuInOut	src/fos/strlib/string/bstraux.c	/^struct bUuInOut {$/;"	s	file:
-bYDecode	src/fos/strlib/string/bstraux.c	/^bYDecode(const bstring src)$/;"	f
-bYEncode	src/fos/strlib/string/bstraux.c	/^bYEncode(const bstring src)$/;"	f
-badlines	src/fos/strlib/string/bstraux.c	/^	int * badlines;$/;"	m	struct:bUuInOut	file:
-balloc	src/fos/strlib/string/bstrlib.c	/^balloc(bstring b, int olen)$/;"	f
-ballocmin	src/fos/strlib/string/bstrlib.c	/^ballocmin(bstring b, int len)$/;"	f
-base64DecodeSymbol	src/fos/strlib/string/bstraux.c	/^base64DecodeSymbol(unsigned char alpha)$/;"	f	file:
-bassign	src/fos/strlib/string/bstrlib.c	/^bassign(bstring a, const bstring b)$/;"	f
-bassignblk	src/fos/strlib/string/bstrlib.c	/^bassignblk(bstring a, const void *s, int len)$/;"	f
-bassigncstr	src/fos/strlib/string/bstrlib.c	/^bassigncstr(bstring a, const char *str)$/;"	f
-bassignformat	src/fos/strlib/string/bstrlib.c	/^bassignformat(bstring b, const char *fmt, ...)$/;"	f
-bassigngets	src/fos/strlib/string/bstrlib.c	/^bassigngets(bstring b, bNgetc getcPtr, void *parm, char terminator)$/;"	f
-bassignmidstr	src/fos/strlib/string/bstrlib.c	/^bassignmidstr(bstring a, const bstring b, int left, int len)$/;"	f
-bcatblk	src/fos/strlib/string/bstrlib.c	/^bcatblk(bstring b, const void *s, int len)$/;"	f
-bcatcstr	src/fos/strlib/string/bstrlib.c	/^bcatcstr(bstring b, const char *s)$/;"	f
-bchar	src/fos/strlib/string/bstrlib.h	1473;"	d
-bchare	src/fos/strlib/string/bstrlib.h	1462;"	d
-bconcat	src/fos/strlib/string/bstrlib.c	/^bconcat(bstring b0, const bstring b1)$/;"	f
-bconchar	src/fos/strlib/string/bstrlib.c	/^bconchar(bstring b, char c)$/;"	f
-bcstrfree	src/fos/strlib/string/bstrlib.c	/^bcstrfree(char *s)$/;"	f
-bdata	src/fos/strlib/string/bstrlib.h	1453;"	d
-bdatae	src/fos/strlib/string/bstrlib.h	1445;"	d
-bdataofs	src/fos/strlib/string/bstrlib.h	1437;"	d
-bdataofse	src/fos/strlib/string/bstrlib.h	1427;"	d
-bdelete	src/fos/strlib/string/bstrlib.c	/^bdelete(bstring b, int pos, int len)$/;"	f
-bdestroy	src/fos/strlib/string/bstrlib.c	/^bdestroy(bstring b)$/;"	f
-bfindreplace	src/fos/strlib/string/bstrlib.c	/^bfindreplace(bstring b, const bstring find, const bstring repl, int pos)$/;"	f
-bfindreplacecaseless	src/fos/strlib/string/bstrlib.c	/^bfindreplacecaseless(bstring b, const bstring find, const bstring repl, int pos)$/;"	f
-bformat	src/fos/strlib/string/bstrlib.c	/^bformat(const char *fmt, ...)$/;"	f
-bformata	src/fos/strlib/string/bstrlib.c	/^bformata(bstring b, const char *fmt, ...)$/;"	f
-bfromcstr	src/fos/strlib/string/bstrlib.c	/^bfromcstr(const char *str)$/;"	f
-bfromcstralloc	src/fos/strlib/string/bstrlib.c	/^bfromcstralloc(int mlen, const char *str)$/;"	f
-bgets	src/fos/strlib/string/bstrlib.c	/^bgets(bNgetc getcPtr, void *parm, char terminator)$/;"	f
-bgetsa	src/fos/strlib/string/bstrlib.c	/^bgetsa(bstring b, bNgetc getcPtr, void *parm, char terminator)$/;"	f
-binchr	src/fos/strlib/string/bstrlib.c	/^binchr(const bstring b0, int pos, const bstring b1)$/;"	f
-binchrCF	src/fos/strlib/string/bstrlib.c	/^binchrCF(const unsigned char *data, int len, int pos,$/;"	f	file:
-binchrr	src/fos/strlib/string/bstrlib.c	/^binchrr(const bstring b0, int pos, const bstring b1)$/;"	f
-binchrrCF	src/fos/strlib/string/bstrlib.c	/^binchrrCF(const unsigned char *data, int pos, const struct charField *cf)$/;"	f	file:
-binsert	src/fos/strlib/string/bstrlib.c	/^binsert(bstring b1, int pos, const bstring b2, unsigned char fill)$/;"	f
-binsertch	src/fos/strlib/string/bstrlib.c	/^binsertch(bstring b, int pos, int len, unsigned char fill)$/;"	f
-binstr	src/fos/strlib/string/bstrlib.c	/^binstr(const bstring b1, int pos, const bstring b2)$/;"	f
-binstrcaseless	src/fos/strlib/string/bstrlib.c	/^binstrcaseless(const bstring b1, int pos, const bstring b2)$/;"	f
-binstrr	src/fos/strlib/string/bstrlib.c	/^binstrr(const bstring b1, int pos, const bstring b2)$/;"	f
-binstrrcaseless	src/fos/strlib/string/bstrlib.c	/^binstrrcaseless(const bstring b1, int pos, const bstring b2)$/;"	f
-biseq	src/fos/strlib/string/bstrlib.c	/^biseq(const bstring b0, const bstring b1)$/;"	f
-biseqcaseless	src/fos/strlib/string/bstrlib.c	/^biseqcaseless(const bstring b0, const bstring b1)$/;"	f
-biseqcstr	src/fos/strlib/string/bstrlib.c	/^biseqcstr(const bstring b, const char *s)$/;"	f
-biseqcstrcaseless	src/fos/strlib/string/bstrlib.c	/^biseqcstrcaseless(const bstring b, const char *s)$/;"	f
-bisstemeqblk	src/fos/strlib/string/bstrlib.c	/^bisstemeqblk(const bstring b0, const void *blk, int len)$/;"	f
-bisstemeqcaselessblk	src/fos/strlib/string/bstrlib.c	/^bisstemeqcaselessblk(const bstring b0, const void *blk, int len)$/;"	f
-biswriteprotected	src/fos/strlib/string/bstrlib.h	1758;"	d
-bjoin	src/fos/strlib/string/bstrlib.c	/^bjoin(const struct bstrList *bl, const bstring sep)$/;"	f
-bl	src/fos/strlib/string/bstrlib.c	/^	struct bstrList *bl;$/;"	m	struct:genBstrList	typeref:struct:genBstrList::bstrList	file:
-blength	src/fos/strlib/string/bstrlib.h	1419;"	d
-blengthe	src/fos/strlib/string/bstrlib.h	1409;"	d
-blk2bstr	src/fos/strlib/string/bstrlib.c	/^blk2bstr(const void *blk, int len)$/;"	f
-blk2tbstr	src/fos/strlib/string/bstrlib.h	1559;"	d
-bltrimws	src/fos/strlib/string/bstrlib.c	/^bltrimws(bstring b)$/;"	f
-bmid2tbstr	src/fos/strlib/string/bstrlib.h	1597;"	d
-bmidstr	src/fos/strlib/string/bstrlib.c	/^bmidstr(const bstring b, int left, int len)$/;"	f
-bninchr	src/fos/strlib/string/bstrlib.c	/^bninchr(const bstring b0, int pos, const bstring b1)$/;"	f
-bninchrr	src/fos/strlib/string/bstrlib.c	/^bninchrr(const bstring b0, int pos, const bstring b1)$/;"	f
-bpattern	src/fos/strlib/string/bstrlib.c	/^bpattern(bstring b, int len)$/;"	f
-bread	src/fos/strlib/string/bstrlib.c	/^bread(bNread readPtr, void *parm)$/;"	f
-breada	src/fos/strlib/string/bstrlib.c	/^breada(bstring b, bNread readPtr, void *parm)$/;"	f
-breplace	src/fos/strlib/string/bstrlib.c	/^breplace(bstring b1, int pos, int len, const bstring b2, unsigned char fill)$/;"	f
-brtrimws	src/fos/strlib/string/bstrlib.c	/^brtrimws(bstring b)$/;"	f
-bsFromBstr	src/fos/strlib/string/bstraux.c	/^bsFromBstr(const bstring b)$/;"	f
-bsFromBstrRef	src/fos/strlib/string/bstraux.c	/^bsFromBstrRef(struct tagbstring * t)$/;"	f	file:
-bsStatic	src/fos/strlib/string/bstrlib.h	1497;"	d
-bsStatic	src/fos/strlib/string/bstrlib.h	1503;"	d
-bsStaticBlkParms	src/fos/strlib/string/bstrlib.h	1526;"	d
-bsStaticMlen	src/fos/strlib/string/bstrlib.h	1480;"	d
-bsUuCtx	src/fos/strlib/string/bstraux.c	/^struct bsUuCtx {$/;"	s	file:
-bsUuDecode	src/fos/strlib/string/bstraux.c	/^bsUuDecode(struct bStream *sInp, int *badlines)$/;"	f
-bsUuDecodePart	src/fos/strlib/string/bstraux.c	/^bsUuDecodePart(void *buff, size_t elsize, size_t nelem, void *parm)$/;"	f	file:
-bsbufflength	src/fos/strlib/string/bstrlib.c	/^int bsbufflength(struct bStream *s, int sz)$/;"	f
-bscb	src/fos/strlib/string/bstrlib.c	/^bscb(void *parm, int ofs, int len)$/;"	f	file:
-bsclose	src/fos/strlib/string/bstrlib.c	/^bsclose(struct bStream *s)$/;"	f
-bseof	src/fos/strlib/string/bstrlib.c	/^bseof(const struct bStream *s)$/;"	f
-bsetstr	src/fos/strlib/string/bstrlib.c	/^bsetstr(bstring b0, int pos, const bstring b1, unsigned char fill)$/;"	f
-bsopen	src/fos/strlib/string/bstrlib.c	/^bsopen (bNread readPtr, void *parm)$/;"	f
-bspeek	src/fos/strlib/string/bstrlib.c	/^bspeek(bstring r, const struct bStream *s)$/;"	f
-bsplit	src/fos/strlib/string/bstrlib.c	/^bsplit(const bstring str, unsigned char splitChar)$/;"	f
-bsplitcb	src/fos/strlib/string/bstrlib.c	/^bsplitcb(const bstring str, unsigned char splitChar, int pos,$/;"	f
-bsplits	src/fos/strlib/string/bstrlib.c	/^bsplits(const bstring str, const bstring splitStr)$/;"	f
-bsplitscb	src/fos/strlib/string/bstrlib.c	/^bsplitscb(const bstring str, const bstring splitStr, int pos,$/;"	f
-bsplitstr	src/fos/strlib/string/bstrlib.c	/^bsplitstr(const bstring str, const bstring splitStr)$/;"	f
-bsplitstrcb	src/fos/strlib/string/bstrlib.c	/^bsplitstrcb(const bstring str, const bstring splitStr, int pos,$/;"	f
-bsread	src/fos/strlib/string/bstrlib.c	/^bsread(bstring r, struct bStream *s, int n)$/;"	f
-bsreada	src/fos/strlib/string/bstrlib.c	/^bsreada(bstring r, struct bStream *s, int n)$/;"	f
-bsreadln	src/fos/strlib/string/bstrlib.c	/^bsreadln(bstring r, struct bStream *s, char terminator)$/;"	f
-bsreadlna	src/fos/strlib/string/bstrlib.c	/^bsreadlna(bstring r, struct bStream *s, char terminator)$/;"	f
-bsreadlns	src/fos/strlib/string/bstrlib.c	/^bsreadlns(bstring r, struct bStream *s, const bstring term)$/;"	f
-bsreadlnsa	src/fos/strlib/string/bstrlib.c	/^bsreadlnsa(bstring r, struct bStream *s, const bstring term)$/;"	f
-bssplitscb	src/fos/strlib/string/bstrlib.c	/^bssplitscb(struct bStream *s, const bstring splitStr,$/;"	f
-bssplitstrcb	src/fos/strlib/string/bstrlib.c	/^bssplitstrcb(struct bStream *s, const bstring splitStr,$/;"	f
-bstr2cstr	src/fos/strlib/string/bstrlib.c	/^bstr2cstr(const bstring b, char z)$/;"	f
-bstrDeclare	src/fos/strlib/string/bstraux.h	53;"	d
-bstrFree	src/fos/strlib/string/bstraux.h	56;"	d
-bstrList	src/fos/strlib/string/bstrlib.h	/^struct bstrList {$/;"	s
-bstrListAlloc	src/fos/strlib/string/bstrlib.c	/^bstrListAlloc(struct bstrList *sl, int msz)$/;"	f
-bstrListAllocMin	src/fos/strlib/string/bstrlib.c	/^bstrListAllocMin(struct bstrList *sl, int msz)$/;"	f
-bstrListCreate	src/fos/strlib/string/bstrlib.c	/^bstrListCreate(void)$/;"	f
-bstrListDestroy	src/fos/strlib/string/bstrlib.c	/^bstrListDestroy(struct bstrList *sl)$/;"	f
-bstrchr	src/fos/strlib/string/bstrlib.h	624;"	d
-bstrchrp	src/fos/strlib/string/bstrlib.c	/^bstrchrp(const bstring b, int c, int pos)$/;"	f
-bstrcmp	src/fos/strlib/string/bstrlib.c	/^bstrcmp(const bstring b0, const bstring b1)$/;"	f
-bstrcpy	src/fos/strlib/string/bstrlib.c	/^bstrcpy(const bstring b)$/;"	f
-bstricmp	src/fos/strlib/string/bstrlib.c	/^bstricmp(const bstring b0, const bstring b1)$/;"	f
-bstring	src/fos/strlib/string/bstrlib.h	/^typedef struct tagbstring *bstring;$/;"	t	typeref:struct:tagbstring
-bstrncmp	src/fos/strlib/string/bstrlib.c	/^bstrncmp(const bstring b0, const bstring b1, int n)$/;"	f
-bstrnicmp	src/fos/strlib/string/bstrlib.c	/^bstrnicmp(const bstring b0, const bstring b1, int n)$/;"	f
-bstrrchr	src/fos/strlib/string/bstrlib.h	633;"	d
-bstrrchrp	src/fos/strlib/string/bstrlib.c	/^bstrrchrp(const bstring b, int c, int pos)$/;"	f
-bsunread	src/fos/strlib/string/bstrlib.c	/^bsunread(struct bStream *s, const bstring b)$/;"	f
-btfromblk	src/fos/strlib/string/bstrlib.h	1580;"	d
-btfromblkltrimws	src/fos/strlib/string/bstrlib.h	1638;"	d
-btfromblkrtrimws	src/fos/strlib/string/bstrlib.h	1668;"	d
-btfromblktrimws	src/fos/strlib/string/bstrlib.h	1698;"	d
-btfromcstr	src/fos/strlib/string/bstrlib.h	1548;"	d
-btolower	src/fos/strlib/string/bstrlib.c	/^btolower(bstring b)$/;"	f
-btoupper	src/fos/strlib/string/bstrlib.c	/^btoupper(bstring b)$/;"	f
-btrimws	src/fos/strlib/string/bstrlib.c	/^btrimws(bstring b)$/;"	f
-btrunc	src/fos/strlib/string/bstrlib.c	/^btrunc(bstring b, int n)$/;"	f
-buff	src/fos/strlib/string/bstraux.c	/^	bstring buff; \/* Buffer for underwrites *\/$/;"	m	struct:bwriteStream	file:
-buff	src/fos/strlib/string/bstrlib.c	/^	bstring buff; \/* Buffer for over-reads *\/$/;"	m	struct:bStream	file:
-buffer	src/fos/ringbuffer.h	/^        char *buffer;$/;"	m	struct:__anon1
-buildCharField	src/fos/strlib/string/bstrlib.c	/^buildCharField(struct charField *cf, const bstring b)$/;"	f	file:
-bvcformata	src/fos/strlib/string/bstrlib.c	/^bvcformata(bstring b, int count, const char *fmt, va_list arg)$/;"	f
-bvformata	src/fos/strlib/string/bstrlib.h	1086;"	d
-bwriteStream	src/fos/strlib/string/bstraux.c	/^struct bwriteStream {$/;"	s	file:
-bwriteallow	src/fos/strlib/string/bstrlib.h	1748;"	d
-bwriteprotect	src/fos/strlib/string/bstrlib.h	1729;"	d
-bwsBuffLength	src/fos/strlib/string/bstraux.c	/^bwsBuffLength(struct bwriteStream *ws, int sz)$/;"	f
-bwsClose	src/fos/strlib/string/bstraux.c	/^bwsClose(struct bwriteStream * ws)$/;"	f
-bwsIsEOF	src/fos/strlib/string/bstraux.c	/^bwsIsEOF(const struct bwriteStream * ws)$/;"	f
-bwsOpen	src/fos/strlib/string/bstraux.c	/^bwsOpen(bNwrite writeFn, void *parm)$/;"	f
-bwsWriteBlk	src/fos/strlib/string/bstraux.c	/^bwsWriteBlk(struct bwriteStream *ws, void *blk, int len)$/;"	f
-bwsWriteBstr	src/fos/strlib/string/bstraux.c	/^bwsWriteBstr(struct bwriteStream *ws, const bstring b)$/;"	f
-bwsWriteFlush	src/fos/strlib/string/bstraux.c	/^bwsWriteFlush(struct bwriteStream *ws)$/;"	f
-charField	src/fos/strlib/string/bstrlib.c	/^struct charField {$/;"	s	file:
-check	src/fos/dbg.h	39;"	d
-check_debug	src/fos/dbg.h	45;"	d
-check_mem	src/fos/dbg.h	43;"	d
-clean_errno	src/fos/dbg.h	31;"	d
+SUFFIXES	app/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	fw/Makefile	/^SUFFIXES =$/;"	m
+SWAPL	fw/src/fos/fw_macros.h	111;"	d
+SWAPW	fw/src/fos/fw_macros.h	105;"	d
+S_FALSE	fw/src/fos/fw_error.h	63;"	d
+S_FALSE	fw/src/fos/fw_error.h	64;"	d
+S_OK	fw/src/fos/fw_error.h	60;"	d
+S_OK	fw/src/fos/fw_error.h	61;"	d
+TEST	fw/src/fos/corefnct/math/test/testsmultiplication.cpp	/^TEST(MulitplicationTest, NegativeNos)$/;"	f
+TEST	fw/src/fos/math/test/testsqroot.cpp	/^TEST(SquareRootTest, NegativeNos)$/;"	f
+TEST	fw/src/fos/math/test/testsqroot.cpp	/^TEST(SquareRootTest, PositiveNos)$/;"	f
+TRUE	fw/src/fos/fw_macros.h	43;"	d
+TYPEDEF__H__	fw/src/fos/fw_typedef.h	32;"	d
+UINT16	fw/src/fos/fw_typedef.h	/^  typedef unsigned short UINT16;$/;"	t
+UINT32	fw/src/fos/fw_typedef.h	/^  typedef unsigned long UINT32;$/;"	t
+UINT64	fw/src/fos/fw_typedef.h	/^  typedef unsigned long long UINT64;$/;"	t
+UINT8	fw/src/fos/fw_typedef.h	/^  typedef unsigned char UINT8;$/;"	t
+UNITS__H__	fw/src/fos/fw_units.h	33;"	d
+UTIL_u8CsCalculate	fw/src/fos/corefnct/math/src/fw_scrc.c	/^UINT8 UTIL_u8CsCalculate(UINT8 u8Length, BYTE* au8pBuffer)$/;"	f
+_BOOL_DEFINED	fw/src/fos/fw_typedef.h	54;"	d
+_BYTE_DEFINED_INC	fw/src/fos/fw_typedef.h	60;"	d
+_DDWORD_DEFINED_INC	fw/src/fos/fw_typedef.h	83;"	d
+_DWORD_DEFINED_INC	fw/src/fos/fw_typedef.h	76;"	d
+_FLOAT32_DEFINED_INC	fw/src/fos/fw_typedef.h	90;"	d
+_FLOAT64_DEFINED_INC	fw/src/fos/fw_typedef.h	96;"	d
+_RESULT_DEFINED	fw/src/fos/fw_typedef.h	102;"	d
+_WORD_DEFINED_INC	fw/src/fos/fw_typedef.h	69;"	d
+__dbg_h__	fw/src/fos/fw_dbg.h	19;"	d
+check	fw/src/fos/fw_dbg.h	39;"	d
+check_debug	fw/src/fos/fw_dbg.h	45;"	d
+check_mem	fw/src/fos/fw_dbg.h	43;"	d
+clean_errno	fw/src/fos/fw_dbg.h	31;"	d
 compilation_database_folder	.ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	v
-content	src/fos/strlib/string/bstrlib.c	/^	LONG_TYPE content[CFCLEN];$/;"	m	struct:charField	file:
-content	src/fos/strlib/string/bstrlib.c	/^	unsigned char content[CFCLEN];$/;"	m	struct:charField	file:
-cstr2bstr	src/fos/strlib/string/bstrlib.h	87;"	d
-cstr2tbstr	src/fos/strlib/string/bstrlib.h	1533;"	d
-data	src/fos/strlib/string/bstrlib.h	/^	unsigned char *data;$/;"	m	struct:tagbstring
 database	.ycm_extra_conf.py	/^  database = None$/;"	v
 database	.ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	v
-debug	src/fos/dbg.h	26;"	d
-debug	src/fos/dbg.h	28;"	d
-downcase	src/fos/strlib/string/bstrlib.c	544;"	d	file:
-dst	src/fos/strlib/string/bstraux.c	/^	bstring src, dst;$/;"	m	struct:bUuInOut	file:
-end	src/fos/ringbuffer.h	/^        int end;$/;"	m	struct:__anon1
-entry	src/fos/strlib/string/bstrlib.h	/^	bstring *entry;$/;"	m	struct:bstrList
-exvsnprintf	src/fos/strlib/string/bstrlib.c	2750;"	d	file:
-findreplaceengine	src/fos/strlib/string/bstrlib.c	/^findreplaceengine(bstring b, const bstring find, const bstring repl,$/;"	f	file:
+debug	fw/src/fos/fw_dbg.h	26;"	d
+debug	fw/src/fos/fw_dbg.h	28;"	d
 flags	.ycm_extra_conf.py	/^flags = [$/;"	v
-genBstrList	src/fos/strlib/string/bstrlib.c	/^struct genBstrList {$/;"	s	file:
 info_arch	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
 info_arch	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
 info_compiler	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
@@ -552,44 +460,21 @@ info_simulate_version	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char con
 info_simulate_version	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v
 info_version	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
 info_version	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
-instr_fnptr	src/fos/strlib/string/bstrlib.c	/^typedef int (*instr_fnptr)(const bstring s1, int pos, const bstring s2);$/;"	t	file:
-internal_bwswriteout	src/fos/strlib/string/bstraux.c	1057;"	d	file:
-invertCharField	src/fos/strlib/string/bstrlib.c	/^invertCharField (struct charField *cf)$/;"	f	file:
-io	src/fos/strlib/string/bstraux.c	/^	struct bUuInOut io;$/;"	m	struct:bsUuCtx	typeref:struct:bsUuCtx::bUuInOut	file:
-isEOF	src/fos/strlib/string/bstraux.c	/^	int isEOF; \/* track stream's EOF state *\/$/;"	m	struct:bwriteStream	file:
-isEOF	src/fos/strlib/string/bstrlib.c	/^	int isEOF; \/* track file's EOF state *\/$/;"	m	struct:bStream	file:
-length	src/fos/ringbuffer.h	/^        int length;$/;"	m	struct:__anon1
-log_err	src/fos/dbg.h	33;"	d
-log_info	src/fos/dbg.h	37;"	d
-log_warn	src/fos/dbg.h	35;"	d
+log_err	fw/src/fos/fw_dbg.h	33;"	d
+log_info	fw/src/fos/fw_dbg.h	37;"	d
+log_warn	fw/src/fos/fw_dbg.h	35;"	d
 main	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f
 main	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
 main	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
-main	src/sms/main.c	/^main (int argc, char *argv[])$/;"	f
-maxBuffSz	src/fos/strlib/string/bstrlib.c	/^	int maxBuffSz;$/;"	m	struct:bStream	file:
-minBuffSz	src/fos/strlib/string/bstraux.c	/^	int minBuffSz;$/;"	m	struct:bwriteStream	file:
-mlen	src/fos/strlib/string/bstrlib.h	/^	int mlen;$/;"	m	struct:tagbstring
-mlen	src/fos/strlib/string/bstrlib.h	/^	int qty, mlen;$/;"	m	struct:bstrList
-parm	src/fos/strlib/string/bstraux.c	/^	void * parm; \/* The stream handle for core stream *\/$/;"	m	struct:bwriteStream	file:
-parm	src/fos/strlib/string/bstrlib.c	/^	void *parm; \/* The stream handle for core stream *\/$/;"	m	struct:bStream	file:
-print	src/fos/print.c	/^void print(void)$/;"	f
+main	app/src/sms/src/main.c	/^int main(int argc, char *argv[])$/;"	f
+main	fw/src/fos/math/test/testsqroot.cpp	/^int main(int argc, char *argv[])$/;"	f
 qnxnto	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto";$/;"	v
 qnxnto	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto";$/;"	v
-qty	src/fos/strlib/string/bstrlib.h	/^	int qty, mlen;$/;"	m	struct:bstrList
-readFnPtr	src/fos/strlib/string/bstrlib.c	/^	bNread readFnPtr; \/* fread compatible fnptr for core stream *\/$/;"	m	struct:bStream	file:
-readNothing	src/fos/strlib/string/bstraux.c	/^readNothing(BSTR_UNUSED void *buff,$/;"	f	file:
-readRef	src/fos/strlib/string/bstraux.c	/^readRef(void *buff, size_t elsize, size_t nelem, void *parm)$/;"	f	file:
-sInp	src/fos/strlib/string/bstraux.c	/^	struct bStream * sInp;$/;"	m	struct:bsUuCtx	typeref:struct:bsUuCtx::bStream	file:
-sentinel	src/fos/dbg.h	41;"	d
-setInCharField	src/fos/strlib/string/bstrlib.c	1264;"	d	file:
-setInCharField	src/fos/strlib/string/bstrlib.c	1277;"	d	file:
-slen	src/fos/strlib/string/bstrlib.h	/^	int slen;$/;"	m	struct:tagbstring
-snapUpSize	src/fos/strlib/string/bstrlib.c	/^snapUpSize(int i) {$/;"	f	file:
-src	src/fos/strlib/string/bstraux.c	/^	bstring src, dst;$/;"	m	struct:bUuInOut	file:
-start	src/fos/ringbuffer.h	/^        int start;$/;"	m	struct:__anon1
-tagbstring	src/fos/strlib/string/bstrlib.h	/^struct tagbstring {$/;"	s
-testInCharField	src/fos/strlib/string/bstrlib.c	1262;"	d	file:
-testInCharField	src/fos/strlib/string/bstrlib.c	1275;"	d	file:
-upcase	src/fos/strlib/string/bstrlib.c	541;"	d	file:
-writeFn	src/fos/strlib/string/bstraux.c	/^	bNwrite writeFn; \/* fwrite work-a-like fnptr for core stream *\/$/;"	m	struct:bwriteStream	file:
-wspace	src/fos/strlib/string/bstrlib.c	547;"	d	file:
+sentinel	fw/src/fos/fw_dbg.h	41;"	d
+squareRoot	fw/src/fos/math/src/sqroot.c	/^double squareRoot(const double a)$/;"	f
+umult32	fw/src/fos/corefnct/math/src/fw_multiplication.c	/^INT32 umult32(INT32 i32FactA, INT32 i32FactB, INT32* pi32Dest)$/;"	f
+util_memcmp	fw/src/fos/corefnct/math/src/fw_memory.c	/^BOOL util_memcmp(const void PTRPARAM * pBuffer1, const void PTRPARAM *  pBuffer2, const UINT32 ui32Length)$/;"	f
+util_memcpy_safe	fw/src/fos/corefnct/math/src/fw_memory.c	/^UINT32 util_memcpy_safe(void PTRPARAM * pTargt, const void PTRPARAM * pSource, const UINT32 ui32TargetBufLen, const UINT32 ui32Length)$/;"	f
+util_memset_safe	fw/src/fos/corefnct/math/src/fw_memory.c	/^UINT32 util_memset_safe(void PTRPARAM * pTargt, const UINT8 ui8Value, const UINT32 ui32TargetBufLen, const UINT32 ui32Length)$/;"	f
+xorcs_CalcCs	fw/src/fos/corefnct/math/src/fw_xorcs.c	/^UINT8 xorcs_CalcCs(const UINT8 aui8Data[], const UINT32 ui32Size)$/;"	f
+xorcs_CheckCs	fw/src/fos/corefnct/math/src/fw_xorcs.c	/^RESULT xorcs_CheckCs(const UINT8 aui8Data[], const UINT32 ui32Size)$/;"	f

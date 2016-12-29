@@ -1,6 +1,7 @@
 # Create a library called "fw" which includes the framework source files.
  set(source_files
   src/fos/math/src/sqroot.c 
+  src/fos/os/src/syscallint.c 
   src/fos/corefnct/math/src/fw_multiplication.c 
      )
 

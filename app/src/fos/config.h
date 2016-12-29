@@ -19,3 +19,9 @@
 #define C_PROJECT_VERSION_MAJOR @C_PROJECT_VERSION_MAJOR@
 #define C_PROJECT_VERSION_MINOR @C_PROJECT_VERSION_MINOR@
 
+#ifdef __linux__
+  //printf("You are running under linux\n");
+#elif _WIN32
+  #error "You are running under windows\n"
+#else
+#endif
