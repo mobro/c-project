@@ -9,7 +9,7 @@ node {
                 sh 'cd build && cmake -DCMAKE_BUILD_TYPE=Debug .. && make && make c-project_coverage && make c-project_cobertura'
 	
 	stage 'Execution'
-		sh 'cd build && pwd && ./app/build/application'
+		/* sh 'cd build && pwd && ./app/build/application' */
 	
 	stage 'Test'
 		sh 'cd build && ./fw/build/runTests --gtest_output="xml:testresults.xml"'
