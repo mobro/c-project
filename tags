@@ -235,6 +235,9 @@ CRC_POLY	fw/src/fos/corefnct/math/fw_math.h	109;"	d
 CRC_WIDTH	fw/src/fos/corefnct/math/fw_math.h	115;"	d
 C_PROJECT_VERSION_MAJOR	app/src/fos/config.h	19;"	d
 C_PROJECT_VERSION_MINOR	app/src/fos/config.h	20;"	d
+CreateMeasProcess	app/src/sms/src/sysctrl.c	/^static void CreateMeasProcess()$/;"	f	file:
+CreateProcess	fw/src/fos/os/src/syscallint.c	/^int32_t CreateProcess(void)$/;"	f
+CreateUIProcess	app/src/sms/src/sysctrl.c	/^static void CreateUIProcess()$/;"	f	file:
 DEC	CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	352;"	d	file:
 DEC	CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	345;"	d	file:
 DECLARE_DBG_VAR	fw/src/fos/fw_macros.h	128;"	d
@@ -290,6 +293,9 @@ INT64	fw/src/fos/fw_typedef.h	/^  typedef signed long long INT64;$/;"	t
 INT8	fw/src/fos/fw_typedef.h	/^  typedef signed char INT8;$/;"	t
 IS_ERROR	fw/src/fos/fw_error.h	56;"	d
 IS_ERROR	fw/src/fos/fw_error.h	58;"	d
+InitMeasctrl	app/src/as/meas/src/measctrl.c	/^void InitMeasctrl(int32_t i32Cntr)$/;"	f
+InitSysctrl	app/src/sms/src/sysctrl.c	/^void InitSysctrl()$/;"	f
+InitUIctrl	app/src/ui/terminal/src/uitask.c	/^void InitUIctrl(int32_t i32Cntr)$/;"	f
 LOBYTE	fw/src/fos/fw_macros.h	75;"	d
 LONIBBLE	fw/src/fos/fw_macros.h	60;"	d
 LOUINT16	fw/src/fos/fw_macros.h	90;"	d

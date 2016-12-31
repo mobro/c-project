@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  syscallint.c
+ *       Filename:  uitask.h
  *
- *    Description:  System-call interface to the kernel
+ *    Description:  Header file for the user interface process module
  *
  *        Version:  1.0
- *        Created:  12/29/2016 07:28:08 PM
+ *        Created:  12/31/2016 08:18:02 PM
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -15,18 +15,4 @@
  *
  * =====================================================================================
  */
-#include <stdlib.h>
-#include <fos/os/syscallint.h>
 
-int32_t CreateProcess(void)
-{
-  pid_t pid = -1;
-#ifdef __linux__
-  pid = fork();
-#else
-  printf("Wrong os!");
-#endif
-
-
-  return (int32_t) pid;
-}

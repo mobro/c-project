@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  measctrl.c
+ *       Filename:  uitask.c
  *
- *    Description:  Measurement controller module
+ *    Description:  This module contains the user interface process
  *
  *        Version:  1.0
- *        Created:  12/29/2016 06:19:49 PM
+ *        Created:  12/31/2016 08:17:29 PM
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -17,25 +17,18 @@
  */
 #include <stdlib.h>
 #include <stdio.h>
-#include <as/meas/measctrl.h>
+#include <ui/terminal/uitask.h>
 
-/* 
- * ===  FUNCTION  ======================================================================
- *         Name:  InitMeasctrl
- *  Description:  
- * =====================================================================================
- */
-void InitMeasctrl(int32_t i32Cntr)
+void InitUIctrl(int32_t i32Cntr)
 {
   int32_t i32Loop = 0;
 
   for (i32Loop = 0; 10 > i32Loop; i32Loop++)
   {
-    printf("child meas process: counter value is %d\n", ++i32Cntr);
+    printf("child UI process: counter value is %d\n", ++i32Cntr);
   }
-
   while(1)
   {
-        // This is the meas controller super loop
+// super ui loop stay here
   }
 }                               /* -----  end of function InitMeasctrl  ----- */

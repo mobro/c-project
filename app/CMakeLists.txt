@@ -1,8 +1,10 @@
 # Add executable called "application" that is built from the source files
 # in the app folder. 
 set(source_files
-  src/as/meas/src/measctrl.c
   src/sms/src/main.c
+  src/sms/src/sysctrl.c
+  src/as/meas/src/measctrl.c
+  src/ui/terminal/src/uitask.c
      )
 
 set(EXECUTABLE_OUTPUT_PATH build)
