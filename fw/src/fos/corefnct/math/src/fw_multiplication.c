@@ -1,6 +1,6 @@
 //=============================================================================
-// Copyright (c) SICK AG - DIV07
-// Project: AFx
+// Copyright (c) 
+// Project: 
 //-----------------------------------------------------------------------------
 //! @file
 //! @brief Short description of this source file: Safe multiplication
@@ -16,8 +16,8 @@
 //! @see @ref FW_MULTIPLICATION.h for interface description.
 //-----------------------------------------------------------------------------
 // Notes
-// Initial author: Benjamin Hug (hugbe), benjaminhug@sick.de
-// $Author: hugbe $(last change)
+// Initial author: 
+// $Author: 
 //=============================================================================
 
 // Includes *******************************************************************
