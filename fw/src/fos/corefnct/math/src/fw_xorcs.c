@@ -1,6 +1,6 @@
 //=============================================================================
-// Copyright (c) SICK AG - DIV07
-// Project: AFx
+// Copyright (c) 
+// Project: 
 //-----------------------------------------------------------------------------
 //! @file
 //! @brief Short description of this source file: 
@@ -16,7 +16,7 @@
 //! @see @ref FW_XORCS.h for interface description.
 //-----------------------------------------------------------------------------
 // Notes
-// Initial author: Benjamin Hug (hugbe), benjaminhug@sick.de
+// Initial author: 
 // $Author:  $(last change)
 //=============================================================================
 
