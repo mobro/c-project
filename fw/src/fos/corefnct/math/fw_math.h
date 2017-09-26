@@ -1,6 +1,6 @@
 //=============================================================================
-// Copyright (c) SICK AG - DIV07 
-// Project: fw
+// Copyright (c) 
+// Project: 
 //-----------------------------------------------------------------------------
 //! @file
 //! @brief Short description of this include file: Mathematical functions
@@ -17,8 +17,8 @@
 //! @see @ref ModuleName.c for implementation details.
 //-----------------------------------------------------------------------------
 // Notes
-// Initial author: Benjamin Hug (hugbe), benjaminhug@sick.de
-// $Author: hugbe $ (last change)
+// Initial author: 
+// $Author: 
 //=============================================================================
 
 //--------------------------------- -------------------------------------------
